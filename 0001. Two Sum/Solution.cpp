@@ -1,4 +1,5 @@
-// https://leetcode.com/problems/two-sum/submissions/2017782671
+// https://leetcode.com/problems/two-sum/submissions/2017798006
+// (https://leetcode.com/problems/two-sum/submissions/2017782671 is faster, but has no comments)
 
 // Provided in the background by LeetCode
 #include <algorithm>

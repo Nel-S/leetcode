@@ -1,1 +1,0 @@
-g++ "Solution.cpp" "Test Cases.cpp" -o "main.exe" -O3 -fwrapv -ffast-math -Wall -Wextra -pedantic

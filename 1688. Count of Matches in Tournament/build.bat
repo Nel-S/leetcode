@@ -1,1 +1,0 @@
-gcc "Solution.c" "Test Cases.c" -o "main.exe" -O3 -fwrapv -ffast-math -Wall -Wextra -pedantic

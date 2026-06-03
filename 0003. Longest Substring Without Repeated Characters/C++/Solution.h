@@ -1,3 +1,6 @@
+#ifndef LEETCODE_0003_CPP
+#define LEETCODE_0003_CPP
+
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2019886751
 
 // Added by LeetCode in the background
@@ -76,3 +79,5 @@ public:
         return static_cast<int>(longestSubstring);
     }
 };
+
+#endif

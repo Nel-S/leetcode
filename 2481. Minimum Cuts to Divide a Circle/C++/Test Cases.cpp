@@ -1,49 +1,67 @@
-#include "Solution.cpp"
+#include "Solution.h"
 #include <cstdio>
 
 struct TestCase {
-    int x;
+    int n;
     int expectedOutput;
 };
 
 const struct TestCase TEST_CASES[] = {
     {
-        123,
-        321
-    }, {
-        -123,
-        -321
-    }, {
-        120,
-        21
-    }, {
-        0,
+        1,
         0
     }, {
-        -2147483648,
-        0
+        2,
+        1
     }, {
-        2147483647,
-        0
+        3,
+        3
     }, {
-        -2147483640,
-        -463847412
+        4,
+        2
     }, {
-        120000000,
-        21
+        5,
+        5
+    }, {
+        6,
+        3
+    }, {
+        7,
+        7
+    }, {
+        8,
+        4
+    }, {
+        9,
+        9
+    }, {
+        10,
+        5
+    }, {
+        11,
+        11
+    }, {
+        12,
+        6
+    }, {
+        13,
+        13
+    }, {
+        14,
+        7
     }
 };
 
 int main() {
     for (size_t i = 0; i < sizeof(TEST_CASES)/sizeof(*TEST_CASES); ++i) {
         struct TestCase testCase = TEST_CASES[i];
-        int output = Solution().reverse(testCase.x);
+        int output = Solution().numberOfCuts(testCase.n);
         if (output == testCase.expectedOutput) {
             printf("Test case %zd passed.\n", i + 1);
         } else {
             printf("!!! TEST CASE %zd FAILED. !!!\n", i + 1);
-            // X
-            printf("\tX: %d\n", testCase.x);
+            // N
+            printf("\tX: %d\n", testCase.n);
             // Actual output
             printf("\tActual output: %d\n", output);
             // Expected output

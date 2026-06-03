@@ -1,3 +1,6 @@
+#ifndef LEETCODE_0006_CPP
+#define LEETCODE_0006_CPP
+
 // https://leetcode.com/problems/zigzag-conversion/submissions/2020759808
 
 // Added by LeetCode in the background
@@ -52,3 +55,5 @@ public:
         return convertedString;
     }
 };
+
+#endif

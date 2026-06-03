@@ -1,3 +1,6 @@
+#ifndef LEETCODE_0001_CPP
+#define LEETCODE_0001_CPP
+
 // https://leetcode.com/problems/two-sum/submissions/2017798006
 // (https://leetcode.com/problems/two-sum/submissions/2017782671 is faster, but has no comments)
 
@@ -71,3 +74,5 @@ public:
         return std::vector<int>();
     }
 };
+
+#endif

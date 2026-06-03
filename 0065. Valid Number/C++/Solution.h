@@ -1,3 +1,6 @@
+#ifndef LEETCODE_0065_CPP
+#define LEETCODE_0065_CPP
+
 // https://leetcode.com/problems/valid-number/submissions/2020954880
 
 // Added by LeetCode in the background
@@ -128,3 +131,5 @@ public:
     }
 
 };
+
+#endif

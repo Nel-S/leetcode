@@ -1,4 +1,4 @@
-#include "Solution.cpp"
+#include "Solution.h"
 #include <cstdio>
 
 struct TestCase {

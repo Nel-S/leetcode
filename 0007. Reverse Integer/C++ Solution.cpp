@@ -1,6 +1,3 @@
-#ifndef LEETCODE_0007_CPP
-#define LEETCODE_0007_CPP
-
 // Added by LeetCode in the background
 #include <cstdint>
 
@@ -47,5 +44,3 @@ public:
         return reversedX;
     }
 };
-
-#endif

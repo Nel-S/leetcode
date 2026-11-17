@@ -1,16 +1,12 @@
-#ifndef LEETCODE_0003_CPP
-#define LEETCODE_0003_CPP
-
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2019886751
 
 // Added by LeetCode in the background
 #include <string>
 #include <unordered_set>
-using namespace std;
 
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(std::string s) {
         /* This holds which characters are in the current substring the
            algorithm's examining.
         */
@@ -79,5 +75,3 @@ public:
         return static_cast<int>(longestSubstring);
     }
 };
-
-#endif

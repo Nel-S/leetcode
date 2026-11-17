@@ -1,6 +1,3 @@
-#ifndef LEETCODE_0002_CPP
-#define LEETCODE_0002_CPP
-
 // https://leetcode.com/problems/add-two-numbers/submissions/2017888693
 
 // Provided in the background by LeetCode
@@ -58,5 +55,3 @@ public:
         return solution->next;
     }
 };
-
-#endif

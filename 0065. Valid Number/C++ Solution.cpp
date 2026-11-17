@@ -1,15 +1,11 @@
-#ifndef LEETCODE_0065_CPP
-#define LEETCODE_0065_CPP
-
 // https://leetcode.com/problems/valid-number/submissions/2020954880
 
 // Added by LeetCode in the background
 #include <string>
-using namespace std;
 
 class Solution {
 public:
-    bool isNumber(string s) {
+    bool isNumber(std::string s) {
         /* From reading the instructions closely, this problem seems identical to
            recognizing the string [whitespace added for readability]
            [-+]? (?:[0-9]+(?:\.[0-9]*)? | \.[0-9]+) (?:[eE][-+]?[0-9]+)?
@@ -131,5 +127,3 @@ public:
     }
 
 };
-
-#endif

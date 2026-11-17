@@ -1,17 +1,13 @@
-#ifndef LEETCODE_0001_CPP
-#define LEETCODE_0001_CPP
-
 // https://leetcode.com/problems/two-sum/submissions/2017798006
 // (https://leetcode.com/problems/two-sum/submissions/2017782671 is faster, but has no comments)
 
 // Provided in the background by LeetCode
 #include <algorithm>
 #include <vector>
-using namespace std;
 
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    std::vector<int> twoSum(std::vector<int>& nums, int target) {
         /* For two numbers A and B to be able to sum to Target (assuming
            without loss of generality that A <= B), A must be <= Target/2,
            and B must be >= Target/2. (Otherwise if both are < Target/2, the
@@ -74,5 +70,3 @@ public:
         return std::vector<int>();
     }
 };
-
-#endif

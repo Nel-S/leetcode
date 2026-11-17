@@ -1,15 +1,11 @@
-#ifndef LEETCODE_1144_CPP
-#define LEETCODE_1144_CPP
-
 // https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/submissions/2022616003
 
 // Provided in the background by LeetCode
 #include <vector>
-using namespace std;
 
 class Solution {
 public:
-    int movesToMakeZigzag(vector<int>& nums) {
+    int movesToMakeZigzag(std::vector<int>& nums) {
         /* Two possible zigzag arrays could be formed from the current one:
            one where we're shrinking only even indices, or one where we're
            shrinking only odd indices. We track how many moves would
@@ -40,5 +36,3 @@ public:
         return std::min(totalIfOddsAreGreater, totalIfEvensAreGreater);
     }
 };
-
-#endif

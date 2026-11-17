@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2019886751
 
 // Added by LeetCode in the background
+#include <algorithm>
+#include <cstddef>
 #include <string>
 #include <unordered_set>
 
@@ -26,14 +28,7 @@ public:
                The indices are already in the right places, so that solely 
                requires adding it to our "seen" set.
             */
-            if (
-            // --------------------------------------------------------------
-            // ORIGINAL SOLUTION:
-            //    !currentSubstringCharacters.contains(currentCharacter)
-            // FOR ENVIRONMENTS BEFORE C++20:
-               currentSubstringCharacters.find(currentCharacter) == currentSubstringCharacters.end()
-            // --------------------------------------------------------------
-            ) {
+            if (!currentSubstringCharacters.contains(currentCharacter)) {
                 currentSubstringCharacters.insert(currentCharacter);
                 continue;
             }

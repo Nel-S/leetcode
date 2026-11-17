@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/valid-number/submissions/2020954880
 
 // Added by LeetCode in the background
+#include <cctype>
 #include <string>
 
 class Solution {

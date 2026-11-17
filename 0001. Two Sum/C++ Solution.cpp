@@ -3,6 +3,8 @@
 
 // Provided in the background by LeetCode
 #include <algorithm>
+#include <cstddef>
+#include <utility>
 #include <vector>
 
 class Solution {

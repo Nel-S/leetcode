@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/submissions/2022616003
 
 // Provided in the background by LeetCode
+#include <algorithm>
+#include <cstddef>
 #include <vector>
 
 class Solution {
